@@ -1,1 +1,13 @@
-hello gay
+git init
+git status
+git add .
+git commit -m ""
+git commit -a -m ""
+git diff
+git log
+git h
+git rm --cached -r .
+git log --oneline
+git log -3 --oneline
+git log -p
+git log -stat
