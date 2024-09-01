@@ -1,11 +1,11 @@
-git init
+git init                       creat reposetory
 git status
 git add .                      stage
 git commit -m ""               commit
 git commit -a -m ""            satge+commit
-git diff
-git log
-git h
+git diff                       show modified
+git log                        show commit
+git h                           
 git rm --cached -r .           unstage
 git log --oneline
 git log -3 --oneline
