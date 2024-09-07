@@ -18,5 +18,5 @@ git branch -a                           list branch
 git checkout "name branch"             swich branchs
 git beanch -b "name branch"            creat new branch "name branch" and swich branchs
 git branch -d "name branch"            delet branch
-git merge "name branch"                merge commits branchs  
+git merge "name branch"                merge modify s commits branchs  
 git log --graph                        show commits and branchs
