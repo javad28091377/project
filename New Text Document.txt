@@ -14,6 +14,5 @@ git log -stat
 git checkout -- .               undo modify 
 git reset name commit           undo commit 
 git reset --hard                delet commit and its modify
-git branch -h                   help branch
 git branch -a                   list branch
-git 
+git checkout "name"             swich branchs
