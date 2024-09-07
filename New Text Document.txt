@@ -1,22 +1,22 @@
-git init                       creat reposetory
+git init                              creat reposetory
 git status
-git add .                      stage
-git commit -m ""               commit
-git commit -a -m ""            satge + commit
-git diff                       show modify
-git log                        show commit
-git h                           
-git rm --cached -r .           unstage
+git add .                             stage
+git commit -m ""                      commit
+git commit -a -m ""                   satge + commit
+git diff                              show modify
+git log                               show commit         
+git rm --cached -r .                  unstage
 git log --oneline
 git log -3 --oneline
 git log -p
 git log -stat
-git checkout -- .               undo modify 
-git reset name commit           undo commit 
-git reset --hard                delet commit and its modify
-git branch "name"               creat new branch "name"
-git branch -a                   list branch
-git checkout "name"             swich branchs
-git beanch -b "name"            creat new branch "name" and swich branchs
-git branch -d "name"            delet branch
-git 
+git checkout -- .                     undo modify 
+git reset name branch commit           undo commit 
+git reset --hard                      delet commit and its modify
+git branch "name branch"               creat new branch "name branch"
+git branch -a                           list branch
+git checkout "name branch"             swich branchs
+git beanch -b "name branch"            creat new branch "name branch" and swich branchs
+git branch -d "name branch"            delet branch
+git merge "name branch"                merge commits branchs  
+git log --graph                        show commits and branchs
