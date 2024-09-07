@@ -2,8 +2,8 @@ git init                       creat reposetory
 git status
 git add .                      stage
 git commit -m ""               commit
-git commit -a -m ""            satge+commit
-git diff                       show modified
+git commit -a -m ""            satge + commit
+git diff                       show modify
 git log                        show commit
 git h                           
 git rm --cached -r .           unstage
@@ -11,4 +11,6 @@ git log --oneline
 git log -3 --oneline
 git log -p
 git log -stat
-git checkout -- .               undo
+git checkout -- .               undo modify 
+git reset name commit           undo commit 
+git reset --hard                delet commit and its modify
