@@ -19,10 +19,11 @@ git checkout "name branch"             swich branchs
 git beanch -b "name branch"            creat new branch "name branch" and swich branchs
 git branch -d "name branch"            delet branch
 git merge "name branch"                merge modify s commits branchs  
-git log --graph                        show commits and branchs
+git log --graph                        show commits & branchs
 git stash                              save modify in stash
 git stash save "name stash"            save modify in stash
 git stash apply                        apply stash  
+git stash pop                          apply & drop stash
 git stash show                         show stash
 git stash show -p                      show all detail stash      
 git stash list                         show list satsh 
