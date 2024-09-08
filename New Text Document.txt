@@ -1,6 +1,6 @@
 git init                              creat reposetory
-git status
-git add .                             stage
+git status                            
+git add .                             add to stage
 git commit -m ""                      commit
 git commit -a -m ""                   satge + commit
 git diff                              show modify
@@ -10,17 +10,19 @@ git log --oneline
 git log -3 --oneline
 git log -p
 git log -stat
-git checkout -- .                     undo modify 
-git reset name branch commit           undo commit 
-git reset --hard                      delet commit and its modify
+git checkout -- .                      undo modify 
+git reset "name commit"                undo commit 
+git reset --hard                       delet commit and its modify
 git branch "name branch"               creat new branch "name branch"
-git branch -a                           list branch
+git branch -a                          list branch
 git checkout "name branch"             swich branchs
 git beanch -b "name branch"            creat new branch "name branch" and swich branchs
 git branch -d "name branch"            delet branch
 git merge "name branch"                merge modify s commits branchs  
 git log --graph                        show commits and branchs
 git stash                              save modify in stash
-git stash save "name stash"            save modify in stash   
+git stash save "name stash"            save modify in stash
+git stash apply                        apply stash  
+git stash show                         show detail stash
 git stash list                         show list satsh 
 git stash drop                         delet stash
