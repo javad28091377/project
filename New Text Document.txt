@@ -20,3 +20,7 @@ git beanch -b "name branch"            creat new branch "name branch" and swich 
 git branch -d "name branch"            delet branch
 git merge "name branch"                merge modify s commits branchs  
 git log --graph                        show commits and branchs
+git stash                              save modify in stash
+git stash save "name stash"            save modify in stash   
+git stash list                         show list satsh 
+git stash drop                         delet stash
