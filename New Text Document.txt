@@ -28,3 +28,4 @@ git stash show                         show stash
 git stash show -p                      show all detail stash      
 git stash list                         show list satsh 
 git stash drop                         delet stash
+touch "name ignoe"                     creat folders or files ignor
