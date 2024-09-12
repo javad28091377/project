@@ -29,3 +29,7 @@ git stash show -p                      show all detail stash
 git stash list                         show list satsh 
 git stash drop                         delet stash
 touch "name ignoe"                     creat folders or files ignor
+git config --global user.name "name"
+git config --global user.gmail "gmail"
+git remote                             show list remotes
+git push -u "name remote" "name branch"                    add project to github 
