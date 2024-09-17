@@ -31,5 +31,5 @@ git stash drop                         delet stash
 touch "name ignoe"                     creat folders or files ignor
 git config --global user.name "name"
 git config --global user.gmail "gmail"
-git remote                             show list remotes
-git push -u "name remote" "name branch"                    add project to github 
+git remote                             show list remotes(merch git with github)
+git push -u "name remote" "name branch"                    add project of system git to github 
